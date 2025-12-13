@@ -18,9 +18,9 @@ productForm.addEventListener('submit', function(event){
     }
     });
 
-    xhr.open("POST", "https://market-6d33.restdb.io/rest/products");
+    xhr.open("POST", "https://market-eb1a.restdb.io/rest/product");
     xhr.setRequestHeader("content-type", "application/json");
-    xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+    xhr.setRequestHeader("x-apikey", "693d982c0936552a4240844e");
     xhr.setRequestHeader("cache-control", "no-cache");
 
     xhr.send(data);
